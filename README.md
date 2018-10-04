@@ -21,7 +21,7 @@ module.exports = {
   basic: {
     name: 'AUTH USER NAME HERE',
     pass: 'AUTH PASSWORD HERE',
-    enabled: (process.env.NODE_ENV === 'production') // require boolean value(nullable)
+    enabled: process.env.BASIC_ENABLED === 'true' // require boolean value(nullable)
   },
 
   // ...
