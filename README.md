@@ -17,7 +17,9 @@ Edit your nuxt.config.js
 ```js
 module.exports = {
   // ...
-
+  modules: [
+    'nuxt-basic-auth-module'
+  ],
   basic: {
     name: 'AUTH USER NAME HERE',
     pass: 'AUTH PASSWORD HERE',
