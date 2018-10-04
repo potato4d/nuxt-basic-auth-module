@@ -1,0 +1,38 @@
+{
+  "name": "nuxt-basic-auth-module",
+  "version": "1.0.0",
+  "description": "Provide basic authentication to your Nuxt.js application",
+  "keywords": [
+    "vue",
+    "nuxt",
+    "nuxt.js",
+    "basic auth",
+    "authentication"
+  ],
+  "main": "lib/module.js",
+  "license": "MIT",
+  "repository": "https://github.com/potato4d/nuxt-basic-auth-module",
+  "scripts": {
+    "dev": "nuxt test/fixture",
+    "test": "jest",
+    "test:unit": "jest --testRegex \"/test/unit/(.+)\\.test\\.js$\"",
+    "test:system": "jest --testRegex \"/test/system/(.+)\\.test\\.js$\"",
+    "test:coverage": "yarn test --coverage",
+    "release": "standard-version && git push --follow-tags"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "codecov": "^3.0.4",
+    "jest": "^23.4.1",
+    "jsdom": "^11.11.0",
+    "nuxt": "^2.0.0",
+    "puppeteer": "^1.6.1",
+    "standard-version": "^4.4.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "basic-auth": "^2.0.1"
+  }
+}
