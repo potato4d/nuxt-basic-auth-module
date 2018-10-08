@@ -1,6 +1,6 @@
 # Nuxt.js basic auth module
 
-[![codecov](https://codecov.io/gh/potato4d/nuxt-basic-auth-module/branch/master/graph/badge.svg)](https://codecov.io/gh/potato4d/nuxt-basic-auth-module)
+[![codecov](https://codecov.io/gh/potato4d/nuxt-basic-auth-module/branch/master/graph/badge.svg)](https://codecov.io/gh/potato4d/nuxt-basic-auth-module) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 ![f2653ad0d131606c49edb3f605cbf547](https://user-images.githubusercontent.com/6993514/46481007-5af6b000-c82d-11e8-99b7-4cae88c22796.gif)
 
