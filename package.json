@@ -30,7 +30,10 @@
     "standard-version": "^4.4.0"
   },
   "jest": {
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "lib/**/*.{js,jsx}"
+    ]
   },
   "dependencies": {
     "basic-auth": "^2.0.1"
