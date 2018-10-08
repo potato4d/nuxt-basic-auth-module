@@ -9,7 +9,7 @@ const get = path => request(url(path))
 
 jest.setTimeout(10000)
 
-describe('basic', () => {
+describe('module E2E test', () => {
   let nuxt
   let page
   let browser
