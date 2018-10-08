@@ -1,8 +1,8 @@
-const createMockMiddleware = (options) => ({
+const createMockMiddleware = options => ({
   options: options || { basic: {} },
   module: require('../../lib/module'),
   middleware: null,
-  addServerMiddleware: (middleware) => {
+  addServerMiddleware: middleware => {
     this.middleware = middleware
   }
 })
@@ -26,7 +26,9 @@ describe('module.js', () => {
     describe('when enabled is false', () => {
       it('should returns false', () => {
         const mock = createMockMiddleware()
-        expect(mock.module({ name: 'name', pass: 'pass', enabled: false })).toBeFalsy()
+        expect(
+          mock.module({ name: 'name', pass: 'pass', enabled: false })
+        ).toBeFalsy()
       })
     })
 
@@ -37,11 +39,12 @@ describe('module.js', () => {
       })
     })
 
-
     describe('when name or pass is truthy value and enabled is true', () => {
       it('should returns false', () => {
         const mock = createMockMiddleware()
-        expect(mock.module({ name: 'name', pass: 'pass', enabled: true })).toBeTruthy()
+        expect(
+          mock.module({ name: 'name', pass: 'pass', enabled: true })
+        ).toBeTruthy()
       })
     })
   })

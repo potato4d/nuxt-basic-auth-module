@@ -18,7 +18,8 @@
     "test:unit": "jest --testRegex \"/test/unit/(.+)\\.test\\.js$\"",
     "test:system": "jest --testRegex \"/test/system/(.+)\\.test\\.js$\"",
     "test:coverage": "yarn test --coverage",
-    "release": "standard-version && git push --follow-tags"
+    "release": "standard-version && git push --follow-tags",
+    "format": "prettier './{lib,test}/**/*.js' --write"
   },
   "devDependencies": {
     "cheerio": "^1.0.0-rc.2",
@@ -26,6 +27,7 @@
     "jest": "^23.4.1",
     "jsdom": "^11.11.0",
     "nuxt": "^2.0.0",
+    "prettier": "^1.14.3",
     "puppeteer": "^1.6.1",
     "standard-version": "^4.4.0"
   },
@@ -37,5 +39,9 @@
   },
   "dependencies": {
     "basic-auth": "^2.0.1"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
   }
 }

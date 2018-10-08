@@ -22,13 +22,13 @@ describe('module E2E test', () => {
       await nuxt.listen(3000)
     }
     const createBrowser = async () => {
-      browser = await puppeteer.launch({ headless: process.env.NODE_ENV !== 'development', timeout: 0 })
+      browser = await puppeteer.launch({
+        headless: process.env.NODE_ENV !== 'development',
+        timeout: 0
+      })
       page = await browser.newPage()
     }
-    await Promise.all([
-      createNuxt(),
-      createBrowser()
-    ])
+    await Promise.all([createNuxt(), createBrowser()])
   }, 60000)
 
   afterAll(async () => {

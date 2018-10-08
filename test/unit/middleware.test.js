@@ -1,4 +1,8 @@
-const { auth, createMiddleware, createBasicMessage } = require('../../lib/middleware')
+const {
+  auth,
+  createMiddleware,
+  createBasicMessage
+} = require('../../lib/middleware')
 const b64credential = 'basic Zm9vOmJhcg==' // foo / bar
 
 describe('middleware.js', () => {
@@ -8,11 +12,15 @@ describe('middleware.js', () => {
 
   describe('createMessage', () => {
     test('default message', () => {
-      expect(createBasicMessage()).toBe('Basic realm="Please enter username and password"')
+      expect(createBasicMessage()).toBe(
+        'Basic realm="Please enter username and password"'
+      )
     })
 
     test('custom message', () => {
-      expect(createBasicMessage({ message: 'hello' })).toBe('Basic realm="hello"')
+      expect(createBasicMessage({ message: 'hello' })).toBe(
+        'Basic realm="hello"'
+      )
     })
   })
 
