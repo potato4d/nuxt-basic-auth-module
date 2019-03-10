@@ -34,6 +34,31 @@ module.exports = {
 }
 ```
 
+## Arguments
+
+### enabled
+
+- type: Boolean
+- default: false
+- required: false
+
+Whether to activate this module.
+If false, module registration is skipped.
+
+### name
+
+- type: String
+- required: true
+
+Basic Auth user name.
+
+### pass
+
+- type: String
+- required: true
+
+Basic Auth use name.
+
 ## License
 
 MIT
