@@ -59,6 +59,14 @@ Basic Auth user name.
 
 Basic Auth use name.
 
+### message
+
+- type: String,
+- default: 'Please enter username and password'
+- required: false
+
+Message to be displayed during basic authentication.
+
 ## License
 
 MIT
