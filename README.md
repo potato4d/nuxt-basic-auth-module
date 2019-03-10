@@ -44,6 +44,39 @@ module.exports = {
 }
 ```
 
+## Arguments
+
+### enabled
+
+- type: Boolean
+- default: false
+- required: false
+
+Whether to activate this module.
+If false, module registration is skipped.
+
+### name
+
+- type: String
+- required: true
+
+Basic Auth user name.
+
+### pass
+
+- type: String
+- required: true
+
+Basic Auth use name.
+
+### message
+
+- type: String,
+- default: 'Please enter username and password'
+- required: false
+
+Message to be displayed during basic authentication.
+
 ## License
 
 MIT
