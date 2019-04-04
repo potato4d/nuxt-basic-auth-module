@@ -29,7 +29,7 @@
     "nuxt": "2.5.1",
     "prettier": "1.16.4",
     "puppeteer": "1.14.0",
-    "standard-version": "4.4.0"
+    "standard-version": "5.0.2"
   },
   "jest": {
     "testEnvironment": "node",
