@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "potato4d",
+      "name": "Takuma HANATANI",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6993514?v=4",
+      "profile": "https://potato4d.me",
+      "contributions": [
+        "code",
+        "maintenance",
+        "doc",
+        "bug"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "nuxt-basic-auth-module",
+  "projectOwner": "potato4d",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}

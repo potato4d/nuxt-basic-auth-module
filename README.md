@@ -1,4 +1,5 @@
 # Nuxt.js basic auth module
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![donate: Patreon](https://img.shields.io/badge/donate-patreon-orange.svg?style=flat-square)](https://www.patreon.com/potato4d)
@@ -82,3 +83,15 @@ Message to be displayed during basic authentication.
 MIT
 
 [https://github.com/potato4d/nuxt-basic-auth-module/blob/master/LICENSE](https://github.com/potato4d/nuxt-basic-auth-module/blob/master/LICENSE)
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table><tr><td align="center"><a href="https://potato4d.me"><img src="https://avatars0.githubusercontent.com/u/6993514?v=4" width="100px;" alt="Takuma HANATANI"/><br /><sub><b>Takuma HANATANI</b></sub></a><br /><a href="https://github.com/potato4d/nuxt-basic-auth-module/commits?author=potato4d" title="Code">💻</a> <a href="#maintenance-potato4d" title="Maintenance">🚧</a> <a href="https://github.com/potato4d/nuxt-basic-auth-module/commits?author=potato4d" title="Documentation">📖</a> <a href="https://github.com/potato4d/nuxt-basic-auth-module/issues?q=author%3Apotato4d" title="Bug reports">🐛</a></td></tr></table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
