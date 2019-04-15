@@ -71,4 +71,72 @@ describe('middleware.js', () => {
       })
     })
   })
+
+  describe('option.match', () => {
+    const res = { setHeader: ([_, message]) => message, end: () => 'res.end' }
+    const next = () => 'next'
+    const configs = { name: 'foo', pass: 'bar' }
+
+    const makeReq = (url, auth=false) => ({
+      url,
+      headers: { authorization: auth ? b64credential : '' }
+    })
+
+    test('match option set to undefined', () => {
+      const match = undefined
+      const middleware = createMiddleware({ ...configs, match })
+      
+      // enabled on all routes
+      expect(middleware(makeReq('/', false), res, next)).toBe('res.end')
+      expect(middleware(makeReq('/foo/bar', false), res, next)).toBe('res.end')
+      expect(middleware(makeReq('/', true), res, next)).toBe('next')
+    })
+
+    test('match option set to string', () => {
+      const match = '/admin'
+      const middleware = createMiddleware({ ...configs, match  })
+      
+      // disabled routes
+      expect(middleware(makeReq('/', false), res, next)).toBe('next')
+      expect(middleware(makeReq('/foo/bar', false), res, next)).toBe('next')
+      expect(middleware(makeReq('/admin/foo', false), res, next)).toBe('next')
+
+      // enabled routes
+      expect(middleware(makeReq('/admin', false), res, next)).toBe('res.end')
+      expect(middleware(makeReq('/admin', true), res, next)).toBe('next')
+    })
+
+    test('match option set to regex', () => {
+      // enable auth only digits route (eg."/1245")
+      const match = /^\/\d+$/
+      const middleware = createMiddleware({ ...configs, match })
+      
+      // disabled routes
+      expect(middleware(makeReq('/', false), res, next)).toBe('next')
+      expect(middleware(makeReq('/foo/bar', false), res, next)).toBe('next')
+      expect(middleware(makeReq('/231/234', false), res, next)).toBe('next')
+
+      // enabled routes
+      expect(middleware(makeReq('/0', false), res, next)).toBe('res.end')
+      expect(middleware(makeReq('/123', false), res, next)).toBe('res.end')
+      expect(middleware(makeReq('/123', true), res, next)).toBe('next')
+    })
+
+    test('match option set to function', () => {
+      const match = ({url}) => {
+        return url === '/auth' || url.toLowerCase().startsWith('/admin')
+      }
+      const middleware = createMiddleware({ ...configs, match })
+      
+      // disabled routes
+      expect(middleware(makeReq('/', false), res, next)).toBe('next')
+      expect(middleware(makeReq('/foo/bar', false), res, next)).toBe('next')
+
+      // enabled routes
+      expect(middleware(makeReq('/auth', false), res, next)).toBe('res.end')
+      expect(middleware(makeReq('/admin', false), res, next)).toBe('res.end')
+      expect(middleware(makeReq('/admin/foo', false), res, next)).toBe('res.end')
+    })
+
+  })
 })
