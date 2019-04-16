@@ -4,7 +4,7 @@
 [![donate: Patreon](https://img.shields.io/badge/donate-patreon-orange.svg?style=flat-square)](https://www.patreon.com/potato4d)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![NPM version](https://img.shields.io/npm/v/nuxt-basic-auth-module.svg?style=flat-square)](https://npmjs.com/package/nuxt-basic-auth-module)
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 [![NPM downloads](https://img.shields.io/npm/dm/nuxt-basic-auth-module.svg?style=flat-square)](https://npmjs.com/package/nuxt-basic-auth-module)
 [![codecov](https://codecov.io/gh/potato4d/nuxt-basic-auth-module/branch/master/graph/badge.svg)](https://codecov.io/gh/potato4d/nuxt-basic-auth-module)
 
@@ -99,7 +99,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-<table><tr><td align="center"><a href="https://potato4d.me"><img src="https://avatars0.githubusercontent.com/u/6993514?v=4" width="100px;" alt="Takuma HANATANI"/><br /><sub><b>Takuma HANATANI</b></sub></a><br /><a href="https://github.com/potato4d/nuxt-basic-auth-module/commits?author=potato4d" title="Code">💻</a> <a href="#maintenance-potato4d" title="Maintenance">🚧</a> <a href="https://github.com/potato4d/nuxt-basic-auth-module/commits?author=potato4d" title="Documentation">📖</a> <a href="https://github.com/potato4d/nuxt-basic-auth-module/issues?q=author%3Apotato4d" title="Bug reports">🐛</a></td></tr></table>
+<table><tr><td align="center"><a href="https://potato4d.me"><img src="https://avatars0.githubusercontent.com/u/6993514?v=4" width="100px;" alt="Takuma HANATANI"/><br /><sub><b>Takuma HANATANI</b></sub></a><br /><a href="https://github.com/potato4d/nuxt-basic-auth-module/commits?author=potato4d" title="Code">💻</a> <a href="#maintenance-potato4d" title="Maintenance">🚧</a> <a href="https://github.com/potato4d/nuxt-basic-auth-module/commits?author=potato4d" title="Documentation">📖</a> <a href="https://github.com/potato4d/nuxt-basic-auth-module/issues?q=author%3Apotato4d" title="Bug reports">🐛</a></td><td align="center"><a href="http://antnf.com"><img src="https://avatars2.githubusercontent.com/u/11247099?v=4" width="100px;" alt="Anthony Fu"/><br /><sub><b>Anthony Fu</b></sub></a><br /><a href="https://github.com/potato4d/nuxt-basic-auth-module/commits?author=antfu" title="Code">💻</a></td></tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
