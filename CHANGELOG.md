@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/potato4d/nuxt-basic-auth-module/compare/v1.1.2...v1.2.0) (2019-04-16)
+
+
+### Features
+
+* Supporting route match ([#33](https://github.com/potato4d/nuxt-basic-auth-module/issues/33)) ([2c9d4e9](https://github.com/potato4d/nuxt-basic-auth-module/commit/2c9d4e9))
+
+
+
 <a name="1.1.2"></a>
 ## [1.1.2](https://github.com/potato4d/nuxt-basic-auth-module/compare/v1.1.1...v1.1.2) (2019-03-10)
 
