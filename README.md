@@ -77,6 +77,16 @@ Basic Auth use name.
 
 Message to be displayed during basic authentication.
 
+### match
+
+- type: String(regex literal) | Function
+- required: false
+
+The target path.
+This allows you to set up basic authentication that is limited to routes that match regular expression literals or where the function returns true.
+
+The function passes req as an argument.
+
 ## License
 
 MIT
