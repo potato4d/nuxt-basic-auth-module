@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:8.15.1-browsers
+      - image: circleci/node:8.16.0-browsers
 
     working_directory: ~/app
 
