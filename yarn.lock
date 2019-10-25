@@ -4,7 +4,7 @@
 
 "@babel/code-frame@7.0.0-beta.44":
   version "7.0.0-beta.44"
-  resolved "http://registry.npmjs.org/@babel/code-frame/-/code-frame-7.0.0-beta.44.tgz#2a02643368de80916162be70865c97774f3adbd9"
+  resolved "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.0.0-beta.44.tgz#2a02643368de80916162be70865c97774f3adbd9"
   dependencies:
     "@babel/highlight" "7.0.0-beta.44"
 
@@ -44,7 +44,7 @@
 
 "@babel/generator@7.0.0-beta.44":
   version "7.0.0-beta.44"
-  resolved "http://registry.npmjs.org/@babel/generator/-/generator-7.0.0-beta.44.tgz#c7e67b9b5284afcf69b309b50d7d37f3e5033d42"
+  resolved "https://registry.npmjs.org/@babel/generator/-/generator-7.0.0-beta.44.tgz#c7e67b9b5284afcf69b309b50d7d37f3e5033d42"
   dependencies:
     "@babel/types" "7.0.0-beta.44"
     jsesc "^2.5.1"
@@ -168,7 +168,7 @@
 
 "@babel/helper-function-name@7.0.0-beta.44":
   version "7.0.0-beta.44"
-  resolved "http://registry.npmjs.org/@babel/helper-function-name/-/helper-function-name-7.0.0-beta.44.tgz#e18552aaae2231100a6e485e03854bc3532d44dd"
+  resolved "https://registry.npmjs.org/@babel/helper-function-name/-/helper-function-name-7.0.0-beta.44.tgz#e18552aaae2231100a6e485e03854bc3532d44dd"
   dependencies:
     "@babel/helper-get-function-arity" "7.0.0-beta.44"
     "@babel/template" "7.0.0-beta.44"
@@ -184,7 +184,7 @@
 
 "@babel/helper-get-function-arity@7.0.0-beta.44":
   version "7.0.0-beta.44"
-  resolved "http://registry.npmjs.org/@babel/helper-get-function-arity/-/helper-get-function-arity-7.0.0-beta.44.tgz#d03ca6dd2b9f7b0b1e6b32c56c72836140db3a15"
+  resolved "https://registry.npmjs.org/@babel/helper-get-function-arity/-/helper-get-function-arity-7.0.0-beta.44.tgz#d03ca6dd2b9f7b0b1e6b32c56c72836140db3a15"
   dependencies:
     "@babel/types" "7.0.0-beta.44"
 
@@ -289,7 +289,7 @@
 
 "@babel/helper-split-export-declaration@7.0.0-beta.44":
   version "7.0.0-beta.44"
-  resolved "http://registry.npmjs.org/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0-beta.44.tgz#c0b351735e0fbcb3822c8ad8db4e583b05ebd9dc"
+  resolved "https://registry.npmjs.org/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0-beta.44.tgz#c0b351735e0fbcb3822c8ad8db4e583b05ebd9dc"
   dependencies:
     "@babel/types" "7.0.0-beta.44"
 
@@ -326,7 +326,7 @@
 
 "@babel/highlight@7.0.0-beta.44":
   version "7.0.0-beta.44"
-  resolved "http://registry.npmjs.org/@babel/highlight/-/highlight-7.0.0-beta.44.tgz#18c94ce543916a80553edcdcf681890b200747d5"
+  resolved "https://registry.npmjs.org/@babel/highlight/-/highlight-7.0.0-beta.44.tgz#18c94ce543916a80553edcdcf681890b200747d5"
   dependencies:
     chalk "^2.0.0"
     esutils "^2.0.2"
@@ -801,7 +801,7 @@
 
 "@babel/template@7.0.0-beta.44":
   version "7.0.0-beta.44"
-  resolved "http://registry.npmjs.org/@babel/template/-/template-7.0.0-beta.44.tgz#f8832f4fdcee5d59bf515e595fc5106c529b394f"
+  resolved "https://registry.npmjs.org/@babel/template/-/template-7.0.0-beta.44.tgz#f8832f4fdcee5d59bf515e595fc5106c529b394f"
   dependencies:
     "@babel/code-frame" "7.0.0-beta.44"
     "@babel/types" "7.0.0-beta.44"
@@ -836,7 +836,7 @@
 
 "@babel/traverse@7.0.0-beta.44":
   version "7.0.0-beta.44"
-  resolved "http://registry.npmjs.org/@babel/traverse/-/traverse-7.0.0-beta.44.tgz#a970a2c45477ad18017e2e465a0606feee0d2966"
+  resolved "https://registry.npmjs.org/@babel/traverse/-/traverse-7.0.0-beta.44.tgz#a970a2c45477ad18017e2e465a0606feee0d2966"
   dependencies:
     "@babel/code-frame" "7.0.0-beta.44"
     "@babel/generator" "7.0.0-beta.44"
@@ -925,7 +925,7 @@
 
 "@babel/types@7.0.0-beta.44":
   version "7.0.0-beta.44"
-  resolved "http://registry.npmjs.org/@babel/types/-/types-7.0.0-beta.44.tgz#6b1b164591f77dec0a0342aca995f2d046b3a757"
+  resolved "https://registry.npmjs.org/@babel/types/-/types-7.0.0-beta.44.tgz#6b1b164591f77dec0a0342aca995f2d046b3a757"
   dependencies:
     esutils "^2.0.2"
     lodash "^4.2.0"
@@ -1705,6 +1705,7 @@ are-we-there-yet@~1.1.2:
 argparse@^1.0.7:
   version "1.0.10"
   resolved "https://registry.yarnpkg.com/argparse/-/argparse-1.0.10.tgz#bcd6791ea5ae09725e17e5ad988134cd40b3d911"
+  integrity sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==
   dependencies:
     sprintf-js "~1.0.2"
 
@@ -2036,7 +2037,7 @@ babel-types@^6.0.0, babel-types@^6.18.0, babel-types@^6.26.0:
 
 babylon@7.0.0-beta.44:
   version "7.0.0-beta.44"
-  resolved "http://registry.npmjs.org/babylon/-/babylon-7.0.0-beta.44.tgz#89159e15e6e30c5096e22d738d8c0af8a0e8ca1d"
+  resolved "https://registry.npmjs.org/babylon/-/babylon-7.0.0-beta.44.tgz#89159e15e6e30c5096e22d738d8c0af8a0e8ca1d"
 
 babylon@^6.18.0:
   version "6.18.0"
@@ -3893,6 +3894,7 @@ esprima@^3.1.3:
 esprima@^4.0.0:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
+  integrity sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==
 
 esrecurse@^4.1.0:
   version "4.2.1"
@@ -4007,7 +4009,7 @@ expect@^23.6.0:
 
 express@^4.16.3:
   version "4.16.3"
-  resolved "http://registry.npmjs.org/express/-/express-4.16.3.tgz#6af8a502350db3246ecc4becf6b5a34d22f7ed53"
+  resolved "https://registry.npmjs.org/express/-/express-4.16.3.tgz#6af8a502350db3246ecc4becf6b5a34d22f7ed53"
   dependencies:
     accepts "~1.3.5"
     array-flatten "1.1.1"
@@ -4844,7 +4846,7 @@ html-tags@^2.0.0:
 
 html-webpack-plugin@^3.2.0:
   version "3.2.0"
-  resolved "http://registry.npmjs.org/html-webpack-plugin/-/html-webpack-plugin-3.2.0.tgz#b01abbd723acaaa7b37b6af4492ebda03d9dd37b"
+  resolved "https://registry.npmjs.org/html-webpack-plugin/-/html-webpack-plugin-3.2.0.tgz#b01abbd723acaaa7b37b6af4492ebda03d9dd37b"
   dependencies:
     html-minifier "^3.2.3"
     loader-utils "^0.2.16"
@@ -5790,25 +5792,10 @@ js-tokens@^3.0.0, js-tokens@^3.0.2:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
 
-js-yaml@^3.12.0, js-yaml@^3.9.0:
-  version "3.12.0"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.12.0.tgz#eaed656ec8344f10f527c6bfa1b6e2244de167d1"
-  dependencies:
-    argparse "^1.0.7"
-    esprima "^4.0.0"
-
-js-yaml@^3.13.1:
+js-yaml@^3.12.0, js-yaml@^3.13.1, js-yaml@^3.7.0, js-yaml@^3.9.0:
   version "3.13.1"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
   integrity sha512-YfbcO7jXDdyj0DGxYVSlSeQNHbD7XPWvrVWeVUujrQEoZzWJIRrCPoyk6kL6IAjAG2IolMK4T0hNUe0HOUs5Jw==
-  dependencies:
-    argparse "^1.0.7"
-    esprima "^4.0.0"
-
-js-yaml@^3.7.0:
-  version "3.13.0"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.0.tgz#38ee7178ac0eea2c97ff6d96fff4b18c7d8cf98e"
-  integrity sha512-pZZoSxcCYco+DIKBTimr67J6Hy+EYGZDY/HCWC+iAEA9h1ByhMXAIVUXMcMFpOCxQ/xjXmPI2MkDL5HRm5eFrQ==
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
@@ -8985,6 +8972,7 @@ split@^1.0.0:
 sprintf-js@~1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
+  integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
 
 sshpk@^1.7.0:
   version "1.14.2"
@@ -10012,7 +10000,7 @@ webpack-log@^2.0.0:
 
 webpack-node-externals@^1.7.2:
   version "1.7.2"
-  resolved "http://registry.npmjs.org/webpack-node-externals/-/webpack-node-externals-1.7.2.tgz#6e1ee79ac67c070402ba700ef033a9b8d52ac4e3"
+  resolved "https://registry.npmjs.org/webpack-node-externals/-/webpack-node-externals-1.7.2.tgz#6e1ee79ac67c070402ba700ef033a9b8d52ac4e3"
 
 webpack-sources@^1.0.1:
   version "1.3.0"
