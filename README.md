@@ -29,7 +29,7 @@ $ yarn add nuxt-basic-auth-module # or npm install
 Edit your nuxt.config.js
 
 ```js
-module.exports = {
+export default {
   // ...
   modules: [
     'nuxt-basic-auth-module'
