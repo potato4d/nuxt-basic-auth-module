@@ -1,6 +1,6 @@
 {
   "name": "nuxt-basic-auth-module",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Provide basic authentication to your Nuxt.js application",
   "keywords": [
     "vue",
