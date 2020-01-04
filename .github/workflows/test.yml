@@ -1,11 +1,13 @@
 name: Test
 
+on: [push]
+
 env:
   NODE_ENV: 'test'
   CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 
 jobs:
-  deploy:
+  test:
     runs-on: ubuntu-latest
 
     strategy:
@@ -29,6 +31,5 @@ jobs:
       - name: Test Application
         run: |
           yarn
-          yarn build
           yarn test:coverage
           yarn codecov
