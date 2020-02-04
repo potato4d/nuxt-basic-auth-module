@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.1](https://github.com/potato4d/nuxt-basic-auth-module/compare/v1.3.0...v1.3.1) (2020-02-04)
+
+
+### Bug Fixes
+
+* Resolve types nits bug ([c2daba4](https://github.com/potato4d/nuxt-basic-auth-module/commit/c2daba408f9ae57a2c6041df3af0ca9ec2d0b5df))
+
 ## [1.3.0](https://github.com/potato4d/nuxt-basic-auth-module/compare/v1.2.3...v1.3.0) (2020-02-04)
 
 
