@@ -10,6 +10,7 @@
     "authentication"
   ],
   "main": "lib/module.js",
+  "types": "./types/index.d.ts",
   "license": "MIT",
   "repository": "https://github.com/potato4d/nuxt-basic-auth-module",
   "scripts": {
