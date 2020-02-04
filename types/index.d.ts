@@ -1,4 +1,5 @@
 declare module '@nuxt/types' {
+  import { Configuration } from '@nuxt/types'
   interface Configuration {
     basic?: {
       name: string,
