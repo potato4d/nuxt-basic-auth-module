@@ -28,7 +28,7 @@
     "jest": "25.2.4",
     "jsdom": "16.2.2",
     "nuxt": "2.12.1",
-    "prettier": "1.19.1",
+    "prettier": "2.0.2",
     "puppeteer": "2.1.1",
     "standard-version": "7.1.0"
   },
