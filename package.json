@@ -26,7 +26,7 @@
     "cheerio": "1.0.0-rc.3",
     "codecov": "3.7.0",
     "jest": "26.1.0",
-    "jsdom": "16.2.2",
+    "jsdom": "16.3.0",
     "nuxt": "2.13.1",
     "prettier": "2.0.5",
     "puppeteer": "4.0.1",
