@@ -24,13 +24,13 @@
   },
   "devDependencies": {
     "cheerio": "1.0.0-rc.3",
-    "codecov": "3.6.4",
-    "jest": "25.1.0",
-    "jsdom": "16.1.0",
-    "nuxt": "2.11.0",
-    "prettier": "1.19.1",
-    "puppeteer": "2.1.0",
-    "standard-version": "7.1.0"
+    "codecov": "3.7.2",
+    "jest": "26.1.0",
+    "jsdom": "16.3.0",
+    "nuxt": "2.14.3",
+    "prettier": "2.0.5",
+    "puppeteer": "5.2.1",
+    "standard-version": "9.0.0"
   },
   "jest": {
     "testEnvironment": "node",
