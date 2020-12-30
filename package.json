@@ -30,7 +30,7 @@
     "nuxt": "2.14.12",
     "prettier": "2.2.1",
     "puppeteer": "5.5.0",
-    "standard-version": "9.0.0"
+    "standard-version": "9.1.0"
   },
   "jest": {
     "testEnvironment": "node",
