@@ -67,7 +67,7 @@ Basic Auth user name.
 - type: String
 - required: true
 
-Basic Auth use name.
+Basic Auth user password.
 
 ### message
 
