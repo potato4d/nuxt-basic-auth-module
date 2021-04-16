@@ -57,17 +57,21 @@ If false, module registration is skipped.
 
 ### name
 
-- type: String
+- type: String | Function
 - required: true
 
 Basic Auth user name.
 
+The function passes req as an argument and must return the username as string.
+
 ### pass
 
-- type: String
+- type: String | Function
 - required: true
 
 Basic Auth user password.
+
+The function passes req as an argument and must return the password as string.
 
 ### message
 
