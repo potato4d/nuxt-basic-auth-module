@@ -25,11 +25,21 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "Scoottykun",
+      "name": "Jleroy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7600027?v=4",
+      "profile": "https://github.com/Scoottykun",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
   "projectName": "nuxt-basic-auth-module",
   "projectOwner": "potato4d",
   "repoType": "github",
-  "repoHost": "https://github.com"
+  "repoHost": "https://github.com",
+  "skipCi": true
 }
