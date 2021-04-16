@@ -102,8 +102,18 @@ MIT
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-<table><tr><td align="center"><a href="https://potato4d.me"><img src="https://avatars0.githubusercontent.com/u/6993514?v=4" width="100px;" alt="Takuma HANATANI"/><br /><sub><b>Takuma HANATANI</b></sub></a><br /><a href="https://github.com/potato4d/nuxt-basic-auth-module/commits?author=potato4d" title="Code">💻</a> <a href="#maintenance-potato4d" title="Maintenance">🚧</a> <a href="https://github.com/potato4d/nuxt-basic-auth-module/commits?author=potato4d" title="Documentation">📖</a> <a href="https://github.com/potato4d/nuxt-basic-auth-module/issues?q=author%3Apotato4d" title="Bug reports">🐛</a></td><td align="center"><a href="http://antnf.com"><img src="https://avatars2.githubusercontent.com/u/11247099?v=4" width="100px;" alt="Anthony Fu"/><br /><sub><b>Anthony Fu</b></sub></a><br /><a href="https://github.com/potato4d/nuxt-basic-auth-module/commits?author=antfu" title="Code">💻</a></td></tr></table>
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://potato4d.me"><img src="https://avatars0.githubusercontent.com/u/6993514?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Takuma HANATANI</b></sub></a><br /><a href="https://github.com/potato4d/nuxt-basic-auth-module/commits?author=potato4d" title="Code">💻</a> <a href="#maintenance-potato4d" title="Maintenance">🚧</a> <a href="https://github.com/potato4d/nuxt-basic-auth-module/commits?author=potato4d" title="Documentation">📖</a> <a href="https://github.com/potato4d/nuxt-basic-auth-module/issues?q=author%3Apotato4d" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="http://antnf.com"><img src="https://avatars2.githubusercontent.com/u/11247099?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anthony Fu</b></sub></a><br /><a href="https://github.com/potato4d/nuxt-basic-auth-module/commits?author=antfu" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Scoottykun"><img src="https://avatars.githubusercontent.com/u/7600027?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jleroy</b></sub></a><br /><a href="https://github.com/potato4d/nuxt-basic-auth-module/commits?author=Scoottykun" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
