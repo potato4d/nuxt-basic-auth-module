@@ -27,7 +27,7 @@
     "codecov": "3.8.2",
     "jest": "26.6.3",
     "jsdom": "16.5.3",
-    "nuxt": "2.15.5",
+    "nuxt": "2.15.6",
     "prettier": "2.2.1",
     "puppeteer": "8.0.0",
     "standard-version": "9.2.0"
