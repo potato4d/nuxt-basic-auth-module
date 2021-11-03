@@ -29,7 +29,7 @@
     "jsdom": "18.0.1",
     "nuxt": "2.15.8",
     "prettier": "2.4.1",
-    "puppeteer": "8.0.0",
+    "puppeteer": "11.0.0",
     "standard-version": "9.3.2"
   },
   "jest": {
