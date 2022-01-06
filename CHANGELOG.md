@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.1](https://github.com/potato4d/nuxt-basic-auth-module/compare/v1.4.0...v1.4.1) (2022-01-06)
+
+
+### Chores
+
+* **deps:** bump ws from 7.2.3 to 7.5.5 ([97e7f55](https://github.com/potato4d/nuxt-basic-auth-module/commit/97e7f55239dbf6b344044f2467f73fb0d96da17a))
+* **deps:** update dependency cheerio to v1.0.0-rc.10 ([#201](https://github.com/potato4d/nuxt-basic-auth-module/issues/201)) ([2d2bddb](https://github.com/potato4d/nuxt-basic-auth-module/commit/2d2bddbd9877f1c212eeb16d7f9adedfd74f7e05))
+* **deps:** update dependency cheerio to v1.0.0-rc.9 ([#193](https://github.com/potato4d/nuxt-basic-auth-module/issues/193)) ([a27804d](https://github.com/potato4d/nuxt-basic-auth-module/commit/a27804dfd9b26c094c721ed2b780170053f2233c))
+* **deps:** update dependency codecov to v3.8.2 ([#194](https://github.com/potato4d/nuxt-basic-auth-module/issues/194)) ([4aac9bc](https://github.com/potato4d/nuxt-basic-auth-module/commit/4aac9bcb095b2ef714ec345f271331757216785b))
+* **deps:** update dependency codecov to v3.8.3 ([#210](https://github.com/potato4d/nuxt-basic-auth-module/issues/210)) ([3326dda](https://github.com/potato4d/nuxt-basic-auth-module/commit/3326dda8cc4a4dc30bbf932334baaf4f7dc82923))
+* **deps:** update dependency jsdom to v18 ([0fea2d7](https://github.com/potato4d/nuxt-basic-auth-module/commit/0fea2d748450920948fc5029ee91b80223d543a2))
+* **deps:** update dependency jsdom to v18.0.1 ([#225](https://github.com/potato4d/nuxt-basic-auth-module/issues/225)) ([9e71d17](https://github.com/potato4d/nuxt-basic-auth-module/commit/9e71d171157467540231a245bffefd90fbd4f107))
+* **deps:** update dependency jsdom to v18.1.0 ([8a92360](https://github.com/potato4d/nuxt-basic-auth-module/commit/8a92360726dbcdfc96262419782c208ebdb9c12a))
+* **deps:** update dependency jsdom to v18.1.1 ([#228](https://github.com/potato4d/nuxt-basic-auth-module/issues/228)) ([f53ae5f](https://github.com/potato4d/nuxt-basic-auth-module/commit/f53ae5f014df6a8d9d5a2376061252dd9444985d))
+* **deps:** update dependency jsdom to v19 ([94da7b0](https://github.com/potato4d/nuxt-basic-auth-module/commit/94da7b018bc59562a8bf79ff4ed4bf986dd8e950))
+* **deps:** update dependency nuxt to v2.15.5 ([#196](https://github.com/potato4d/nuxt-basic-auth-module/issues/196)) ([5602f34](https://github.com/potato4d/nuxt-basic-auth-module/commit/5602f349fc4c8ee131ce4c74a4085fb0f9b4def7))
+* **deps:** update dependency nuxt to v2.15.6 ([#197](https://github.com/potato4d/nuxt-basic-auth-module/issues/197)) ([7915561](https://github.com/potato4d/nuxt-basic-auth-module/commit/79155618341870ceac32d71179e66e05e62a9e8d))
+* **deps:** update dependency nuxt to v2.15.7 ([#203](https://github.com/potato4d/nuxt-basic-auth-module/issues/203)) ([e1af27d](https://github.com/potato4d/nuxt-basic-auth-module/commit/e1af27d50ff6617da2082f2d925a2c7c944c8d2a))
+* **deps:** update dependency nuxt to v2.15.8 ([#214](https://github.com/potato4d/nuxt-basic-auth-module/issues/214)) ([870b685](https://github.com/potato4d/nuxt-basic-auth-module/commit/870b68566305153a6ca8a5401645570cc8437310))
+* **deps:** update dependency prettier to v2.5.1 ([c6a2965](https://github.com/potato4d/nuxt-basic-auth-module/commit/c6a296531e6b0c28e06a6f78e3dc47c509ebea6e))
+* **deps:** update dependency puppeteer to v11 ([2e42c0b](https://github.com/potato4d/nuxt-basic-auth-module/commit/2e42c0bdf758d8355aea11f1210f49a66eb97a7b))
+* **deps:** update dependency puppeteer to v13 ([00cb0f6](https://github.com/potato4d/nuxt-basic-auth-module/commit/00cb0f6616aa0a01ddb7720876c9b5ffdbe67e16))
+* **deps:** update dependency puppeteer to v13.0.1 ([#233](https://github.com/potato4d/nuxt-basic-auth-module/issues/233)) ([c5ea3d2](https://github.com/potato4d/nuxt-basic-auth-module/commit/c5ea3d2955b633b3ac18cca9b14c243eaf8f0338))
+* **deps:** update dependency standard-version to v9.3.2 ([#224](https://github.com/potato4d/nuxt-basic-auth-module/issues/224)) ([94c7335](https://github.com/potato4d/nuxt-basic-auth-module/commit/94c7335f65df48be663d907a7c3a1497c19dd5a0))
+* **deps:** update minor dependencies ([6784638](https://github.com/potato4d/nuxt-basic-auth-module/commit/678463869db9650fd3617951f2afd97211017485))
+* **deps:** update minor dependencies ([0129e39](https://github.com/potato4d/nuxt-basic-auth-module/commit/0129e39040aad18b314474bfaa8d1f40332bec43))
+
 ## [1.4.0](https://github.com/potato4d/nuxt-basic-auth-module/compare/v1.3.3...v1.4.0) (2021-04-16)
 
 
