@@ -23,7 +23,7 @@
     "format": "prettier './{lib,test}/**/*.js' --write"
   },
   "devDependencies": {
-    "cheerio": "1.0.0-rc.10",
+    "cheerio": "1.0.0-rc.11",
     "codecov": "3.8.3",
     "jest": "27.4.7",
     "jsdom": "19.0.0",
