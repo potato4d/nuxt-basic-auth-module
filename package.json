@@ -28,11 +28,11 @@
     "jest": "27.4.7",
     "jsdom": "19.0.0",
     "nuxt": "2.15.8",
-    "prettier": "2.5.1",
-    "puppeteer": "13.0.1",
+    "prettier": "2.7.1",
+    "puppeteer": "13.7.0",
     "request": "2.88.2",
     "request-promise-native": "1.0.9",
-    "standard-version": "9.3.2"
+    "standard-version": "9.5.0"
   },
   "jest": {
     "testEnvironment": "node",
