@@ -2,9 +2,7 @@
   "extends": [
     "config:base"
   ],
-  "patch": {
-    "automerge": true
-  },
+  "automerge": true,
   "minor": {
     "groupName": "minor dependencies"
   }
