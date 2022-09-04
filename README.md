@@ -14,10 +14,6 @@ Provide basic authentication to your Nuxt.js application
 
 [https://www.npmjs.com/package/nuxt-basic-auth-module](https://www.npmjs.com/package/nuxt-basic-auth-module)
 
-<a href="https://patreon.com/potato4d">
-  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" height="50">
-</a>
-
 ## Installation
 
 ```bash
