@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "basic-auth": "^2.0.1",
-    "consola": "^2.3.2"
+    "consola": "^3.0.0"
   },
   "prettier": {
     "semi": false,
